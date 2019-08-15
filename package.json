@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build; echo 'www.meetdeb.com' >> ./dist/CNAME; git add — all; git commit -a -m 'Deploy'; git push; git subtree push -P dist origin master"
+    "deploy": "ng build --prod; echo 'www.meetdeb.com' >> ./dist/CNAME; mv ./dist/meetDeb ./dist; rm ./dist/meetDeb; git add --all; git commit -a -m 'Deploy'; git push; git subtree push -P dist origin master"
   },
   "private": true,
   "dependencies": {
