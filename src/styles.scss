@@ -1,0 +1,68 @@
+
+html { scroll-behavior: smooth; } 
+
+body {
+    font-family: 'Gibson','Helvetica Neue',HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
+.navbar {
+    box-shadow: None !important;
+}
+
+.jumbotron {
+    box-shadow: None;
+    border-radius: 0.125rem;
+    background-color: #fff;
+}
+
+.gibson {
+    font-family: 'Gibson','Helvetica Neue',HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
+.cabin {
+    Font-Family: 'Cabin', Sans-Serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.home-hero-intro {
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: .75px;
+}
+
+.home-hero-headline {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.whitesmoke {
+    background-color: #f7f7f7;
+}
+
+.rounded1 {
+    border-radius: 1rem !important;
+}
+
+.rounded2 {
+    border-radius: 2rem !important;
+}
+
+.btn-rounded {
+    border-radius: 10em !important;
+}
+
+.img-sm {
+    max-height: 140px;
+}
+
+.footer-main {
+    padding-top: 60px !important;
+    padding-right: 150px !important;
+    padding-bottom: 60px !important;
+    padding-left: 150px !important;
+    background-color: #2a2828 !important;
+}
